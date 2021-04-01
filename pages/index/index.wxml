@@ -1,0 +1,11 @@
+<scroll-view scroll-y class="scrollPage">
+  <image src='https://6a61-jack-lin-cx09t-1254385830.tcb.qcloud.la/imges/index.jpg?sign=d857dcec98d572f64a9c23fc7acbd80e&t=1613311748' mode='widthFix' class='png' style='width:100%;height:486rpx'></image>
+  <view class="cu-card">
+    <view class="cu-item bg-img shadow-blur" style="background-image:url({{item.img}})" bindtap="handleCardClicked" data-url="{{item.url}}" wx:for="{{list}}" wx:for-index="idx" wx:key="idx">
+      <view class="cardTitle">
+        {{item.title}}
+      </view>
+    </view>
+  </view>
+</scroll-view>
+

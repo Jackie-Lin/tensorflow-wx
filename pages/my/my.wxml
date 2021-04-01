@@ -1,0 +1,14 @@
+<view class="UCenter-bg">
+  <view class="text-xl">Waste Sorting</view>
+  <view class="margin-top-sm">
+    <text>By Lin</text>
+  </view>
+  <image src='https://6a61-jack-lin-cx09t-1254385830.tcb.qcloud.la/imges/wave.gif?sign=e7b2d4a687e961d6f8010d520d0a12e4&t=1612081615' class='gif-wave'></image>
+</view>
+
+<view class="list">
+  <l-list title="问题反馈" icon="comment" icon-color="#016599" />
+  <l-list title="联系作者" icon="customer-service" icon-color="#b43953"/>
+  <l-list title="用户协议" icon="user" icon-color="#825349"/>
+  <l-list title="当前版本" icon="order" is-link="{{false}}" icon-color="#7e8ca7" right-desc="0.1.0"/>
+</view>

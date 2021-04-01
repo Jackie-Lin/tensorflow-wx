@@ -1,0 +1,17 @@
+<view class="title">答题测试</view>
+<view class="boxs">
+  <view class="test-box">
+    <view class="topic-num">第{{titleNum}}/{{titleLeng}}题</view>
+    <view class="topic">{{title}}</view>
+    <view bindtap="btnclick" class="select-box {{selectButton[0]}}" id="可回收物">可回收物</view>
+    <view bindtap="btnclick" class="select-box {{selectButton[1]}}" id="有害垃圾">有害垃圾</view>
+    <view bindtap="btnclick" class="select-box {{selectButton[2]}}" id="厨余垃圾">厨余垃圾</view>
+    <view bindtap="btnclick" class="select-box {{selectButton[3]}}" id="其他垃圾">其他垃圾</view>
+    <view class="answer {{noneAnswer}}">正确答案:{{answer}}</view>
+  </view>
+  <view bindtap="nextTitle" class="next {{noneButton}}"></view>
+</view>
+<view class="bg">
+  <view class="bg-top"></view>
+  <view class="bg-bottom"></view>
+</view>

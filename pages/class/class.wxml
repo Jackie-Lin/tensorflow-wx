@@ -1,0 +1,117 @@
+<view class="title">分类</view>
+<l-tabs bind:linchange="changeTabs" animated="ture" animated-for-line="ture" swipeable="ture" content-height="1000" >
+  <l-tabpanel tab="可回收物" key="one" slot="one" >
+    <view class="card-box .color-1">
+      <view class="img">
+        <image src="../../images/recycle.png" />
+      </view>
+      <view class="card-text">
+        <view class="card-title">可回收物</view>
+        <view class="card-body">是指在日常生活中产生的，已经失去原有全部或者部分使用价值，回收后经过再加工可以再利用的物品</view>
+      </view>
+    </view>
+    <view class="title-2">投放条件</view>
+    <view class="body-2">
+        <image src="../../images/icon-1.png"/> 分类投放可回收物时，应尽量保持清洁干燥
+        <view class="line-1"></view>
+        <image src="../../images/icon-1.png"/> 废纸应保持平整
+        <view class="line-1"></view>
+        <image src="../../images/icon-1.png"/> 立体包装物应清空内容物，清洁后压扁投放
+        <view class="line-1"></view>
+        <image src="../../images/icon-1.png"/> 废玻璃制品应轻投轻放，有尖锐边角的应包裹后投放
+    </view>
+    <view class="title-2">常见物品</view>
+    <view class="body-2">
+        <image src="../../images/icon-1.png"/>  酸奶盒 塑料盒 玻璃瓶 塑料瓶 香水瓶 泡沫 
+        <view class="line-1"></view>
+        <image src="../../images/icon-1.png"/>  牛奶利乐包装盒 易拉罐 纸 塑料咖啡杯 玻璃 
+        <view class="line-1"></view>
+        <image src="../../images/icon-1.png"/>  衣服 泡沫塑料 墨汁瓶 塑料架 袜子
+    </view>
+  </l-tabpanel>
+  <l-tabpanel tab="有害垃圾" key="two" slot="two">
+    <view class="card-box color-2">
+      <view class="img">
+        <image src="../../images/hazardous.png" />
+      </view>
+      <view class="card-text">
+        <view class="card-title">有害垃圾</view>
+        <view class="card-body">是指生活垃圾中对人体健康或者自然环境造成危害的物质，包括废充电电池、废扣式电池、废灯管</view>
+      </view>
+    </view>
+    <view class="title-2">投放条件</view>
+    <view class="body-2">
+        <image src="../../images/icon-2.png"/> 分类投放有害垃圾时，应注意轻放
+        <view class="line-1"></view>
+        <image src="../../images/icon-2.png"/> 废灯管等易破损的有害垃圾应连带包装或包裹后投放
+        <view class="line-1"></view>
+        <image src="../../images/icon-2.png"/> 废弃药品宜连带包装一并投放
+        <view class="line-1"></view>
+        <image src="../../images/icon-2.png"/> 杀虫剂等压力罐装容器，应排空内容物后投放
+        <view class="line-1"></view>
+        <image src="../../images/icon-2.png"/> 在未发现收集容器时，应携带至有害垃圾投放点投放
+    </view>
+    <view class="title-2">常见物品</view>
+    <view class="body-2">
+        <image src="../../images/icon-2.png"/>  充电电池 颗粒药包装袋 硒鼓 药品外包装盒 
+        <view class="line-1"></view>
+        <image src="../../images/icon-2.png"/>  药品 过期药品 手机电池 纽扣电池 西药 油漆桶 
+        <view class="line-1"></view>
+        <image src="../../images/icon-2.png"/>  药瓶 指甲油 玻璃药瓶 废荧光灯管 铅酸电池  
+    </view>
+  </l-tabpanel>
+  <l-tabpanel tab="厨余垃圾" key="three" slot="three">
+    <view class="card-box color-3">
+      <view class="img">
+        <image src="../../images/kitchen.png" />
+      </view>
+      <view class="card-text">
+        <view class="card-title">厨余垃圾</view>
+        <view class="card-body">是指居民日常生活中产生的有机易腐垃圾，包括菜叶、剩菜、剩饭、果皮、蛋壳、茶渣、骨头等</view>
+      </view>
+    </view>
+    <view class="title-2">投放条件</view>
+    <view class="body-2">
+        <image src="../../images/icon-3.png"/> 去除食材食品的包装物，不得混入塑料袋、纸巾等
+        <view class="line-1"></view>
+        <image src="../../images/icon-3.png"/> 投放时要沥干水分，扎紧袋口
+        <view class="line-1"></view>
+        <image src="../../images/icon-3.png"/> 垃圾桶应该盖好盖子，以免影响环境
+    </view>
+    <view class="title-2">常见物品</view>
+    <view class="body-2">
+        <image src="../../images/icon-3.png"/>  鸡蛋壳 玉米棒 瓜子皮 香蕉皮 过期食品 花生壳 
+        <view class="line-1"></view>
+        <image src="../../images/icon-3.png"/>  鸡骨头 椰子壳 树叶 玉米叶 螃蟹壳 兔子骨头 
+        <view class="line-1"></view>
+        <image src="../../images/icon-3.png"/>  茶叶渣 西瓜皮 中药渣 蛋壳 瓜子壳 鱼骨头 苹果核  
+    </view>
+  </l-tabpanel>
+  <l-tabpanel tab="其他垃圾" key="four" slot="four">
+    <view class="card-box color-4">
+      <view class="img">
+        <image src="../../images/dryRefuse.png" />
+      </view>
+      <view class="card-text">
+        <view class="card-title">其他垃圾</view>
+        <view class="card-body">是指除可回收物、有害垃圾和厨余垃圾之外的，混杂、污染、难分类的其他生活垃圾</view>
+      </view>
+    </view>
+    <view class="title-2">投放条件</view>
+    <view class="body-2">
+        <image src="../../images/icon-4.png"/> 用过的餐巾纸等沾有各类污迹，可作其他垃圾投放
+        <view class="line-1"></view>
+        <image src="../../images/icon-4.png"/> 普通一次性电池基本不含重金属，可作其他垃圾投放
+        <view class="line-1"></view>
+        <image src="../../images/icon-4.png"/> 烟头等需要熄灭火种的垃圾，禁止带火投放
+    </view>
+    <view class="title-2">常见物品</view>
+    <view class="body-2">
+        <image src="../../images/icon-4.png"/>  塑料袋 卫生纸 扇贝壳 外卖餐盒 旧口罩 烟头
+        <view class="line-1"></view>
+        <image src="../../images/icon-4.png"/>  保鲜膜 纸杯 海绵 水彩笔 榴莲壳 大棒骨 玉米核 
+        <view class="line-1"></view>
+        <image src="../../images/icon-4.png"/>  橡胶手套 核桃壳 牛奶袋 头发 口香糖 快餐盒 
+    </view>
+  </l-tabpanel>
+</l-tabs>

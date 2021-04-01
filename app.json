@@ -1,0 +1,56 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/photo/photo",
+    "pages/basic/mobilenet/index",
+    "pages/test/test",
+    "pages/my/my",
+    "pages/class/class"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationStyle": "custom"
+  },
+  "usingComponents": {
+    "cu-custom": "/components/cu-custom/cu-custom"
+  },
+  "tabBar": {
+    "color": "#aaa",
+    "selectedColor": "#39b54a",
+    "backgroundColor": "#fff",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "images/index.png",
+        "selectedIconPath": "images/index-on.png"
+      },
+      {
+        "pagePath": "pages/class/class",
+        "text": "分类",
+        "iconPath": "images/class.png",
+        "selectedIconPath": "images/class-on.png"
+      },
+      {
+        "pagePath": "pages/test/test",
+        "text": "测试",
+        "iconPath": "images/test.png",
+        "selectedIconPath": "images/test-on.png"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "text": "关于",
+        "iconPath": "images/my.png",
+        "selectedIconPath": "images/my-on.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json",
+  "plugins": {
+    "tfjsPlugin": {
+      "version": "0.1.0",
+      "provider": "wx6afed118d9e81df9"
+    }
+  }
+}

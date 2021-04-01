@@ -1,0 +1,24 @@
+<cu-custom bgColor="bg-gradual-green" isBack="{{true}}">
+  <view slot="backText">返回</view>
+  <view slot="content">拍照识别</view>
+</cu-custom>
+
+<view class="show-img">
+  <image mode='widthFix' src="{{showImg}}"/>
+</view>
+
+<view class="canvas">
+  <canvas canvas-id="canvasIn"></canvas>
+</view>
+
+<view class="car-box" animation="{{animation}}">
+  <view class="result-title">垃圾分类</view>
+  <view class="hint">识别结果如下</view>
+  <view class="result-box">
+    <view class="result-card" wx:for="{{results}}">
+      <view class="img"><image src="{{item.img}}"/></view>
+      <view class="probability">{{item.score}}</view>
+      <view class="class-label">{{item.label}}</view>
+    </view>
+  </view>
+</view>
